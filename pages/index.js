@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Herosection from '../components/Herosection'
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-center text-xl font-bold"> hello worlds</h1>
-
+      <Herosection title={"Let's Watch Movie Together"} url={'/images/hero-image.jpg'} />
     </>
   )
 }
